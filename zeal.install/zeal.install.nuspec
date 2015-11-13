@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>zeal.install</id>
+    <title>Zeal</title>
+    <version>0.2.0</version>
+    <authors>Jerzy Kozera, Oleg Shparber</authors>
+    <owners>Rafael Bertoldi</owners>
+    <summary>Offline documentation browser inspired by Dash</summary>
+    <description>__REPLACE__MarkDown_Okay 
+    </description>
+    <projectUrl>https://zealdocs.org/</projectUrl>
+    <!--<packageSourceUrl>https://github.com/zealdocs/zeal</packageSourceUrl>
+    <projectSourceUrl></projectSourceUrl>
+    <docsUrl></docsUrl>
+    <mailingListUrl></mailingListUrl>
+    <bugTrackerUrl></bugTrackerUrl>-->
+    <tags>docs</tags>
+    <copyright></copyright>
+    <licenseUrl>https://github.com/zealdocs/zeal#license</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/zealdocs/zeal/master/src/appicons/32/zeal.png</iconUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
